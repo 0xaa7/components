@@ -1,22 +1,23 @@
-import InsertChartOutlinedOutlinedIcon from '@mui/icons-material/InsertChartOutlinedOutlined';
+import InsertChartOutlinedIcon from '@mui/icons-material/InsertChartOutlined';
 
 const Polls = () => {
 
-   const iconStyle = {
-    fontSize: '86px'
+  const iconStyle = {
+    width: '55.48px',
+    height: '50.81px',
   };
 
   return (
-    
-    <div className='flex justify-center w-auto h-auto mb-4'>
-      <div className='bg-gray-100 w-11/12 h-auto rounded-md flex items-center justify-between flex-col p-6 gap-1 '>
-        <InsertChartOutlinedOutlinedIcon style={iconStyle}/>
-        <span className='font-bold text-3xl'>Create Polls</span>
-        <p className='font-extralight font-mono text-slate-500'>Be Anonymous. Ask weird questions</p>
+    <div className='flex flex-col items-center justify-center mb-4'>
+      <div className='w-full max-w-[970px] bg-[#FFFFFF] rounded-md flex flex-col items-center justify-center p-5'>
+        <InsertChartOutlinedIcon style={iconStyle}/>
+        <p className='text-3xl font-bold text-center'>Create Polls</p>
+        <p className='mt-2 text-base text-black text-opacity-50 text-center'>
+          Be Anonymous. Ask weird questions
+        </p>
       </div>
     </div>
-    
   )
 }
 
-export default Polls
+export default Polls;

@@ -1,26 +1,23 @@
-import ChevronRightIcon from '@mui/icons-material/ChevronRight';
+import { FaChevronRight } from 'react-icons/fa';
 
 const Logout = () => {
   return (
-    <div className='flex justify-center w-auto h-auto mb-3'>
-      <div className="bg-gray-100 w-96 h-36 flex items-center justify-center flex-col gap-2 mt-2">
-         <div className='w-11/12 h-8 flex items-center justify-between p-2 font-semibold rounded bg-white'>
-          <p>Account Details</p>
-          <ChevronRightIcon />
+    <div className='flex flex-col items-center justify-center mt-4'>
+      <div className='w-full max-w-[714px] flex flex-col justify-center bg-[#F9F9F9] gap-5 pt-5 px-5 pb-5'>
+        <div className='w-full max-w-[694px] flex justify-between items-center p-5 rounded-lg bg-[#FFFFFF]'>
+          <p className='w-[129px] text-base font-semibold'>Account Details</p>
+          <FaChevronRight /> 
         </div>
-        <div className='w-11/12 h-8 flex items-center justify-between p-2 font-semibold rounded bg-white'>
-          <p>Privacy and Security</p>
-          <ChevronRightIcon />
+        <div className='w-full max-w-[694px] flex justify-between items-center p-5 rounded-lg bg-[#FFFFFF]'>
+          <p className='w-[168px] text-base font-semibold'>Privacy and Security</p>
+          <FaChevronRight />
         </div>
-        <div className='w-11/12 flex justify-center items-center'>
-          <button className="w-11/12 h-8 flex items-center bg-red-100 text-red-600 border-2 border-red-500 justify-center p-2 font-semibold rounded">
-            Logout
-          </button>
-        </div> 
-      
+        <button className="w-full max-w-[694px] flex bg-[#ff000017] text-[#FF0000] border-[0.5px] border-[#FF0000] justify-center items-center p-4 text-base font-semibold rounded-md">
+          Logout
+        </button>
       </div>
     </div>
-  )
+  );
 }
 
 export default Logout;

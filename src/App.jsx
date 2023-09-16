@@ -8,13 +8,13 @@ import Profile from "./components/Profile/Profile"
 function App() {
 
   return (
-    <div>
+    <div className="bg-slate-100 flex gap-3 flex-col">
       <Logout />
       <Polls />
-      <Login />
+      {/* <Login />
       <Account />
       <Follow />
-      <Profile />
+      <Profile />  */}
     </div>
   )
 }
