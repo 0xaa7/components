@@ -10,11 +10,11 @@ function App() {
   return (
     <div className="bg-slate-100 flex gap-3 flex-col">
       <Logout />
-      <Polls />
-      {/* <Login />
-      <Account />
-      <Follow />
-      <Profile />  */}
+      <Polls /> 
+      <Login />
+       <Account />
+       <Follow />
+      <Profile />
     </div>
   )
 }

@@ -2,8 +2,8 @@
 const Follow = () => {
   return (
     
-      <div className='flex w-full h-4 justify-center mb-8'> 
-      <button className='w-24 h-7 flex items-center bg-blue-100 text-blue-600  justify-center p-2 font-semibold rounded'>
+      <div className='flex w-full h-full justify-center mb-8'> 
+      <button className='w-full max-w-[80px] h-[30px] flex items-center bg-[rgba(0,149,246,0.1)] text-[#0095F6] justify-center p-[10px] font-poppins font-semibold text-xs rounded'>
         Follow
       </button>
     </div>
