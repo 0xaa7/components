@@ -33,8 +33,8 @@ const Login = () => {
           </span>
         </div>
 
-        <div className='flex max-w-full relative bg-[#FFFFFF] rounded-lg'>
-          <div className='flex flex-row relative w-[694px] h-[98px] p-[20px] rounded-lg bg-[#FFFFFF] '>
+        <div className='flex w-full relative bg-[#FFFFFF] rounded-lg'>
+          <div className='flex flex-row w-full max-w-[694px] h-[98px] relative p-[20px] rounded-lg bg-[#FFFFFF] '>
             <div className='flex justify-between flex-col  '>
             <span className='flex justify-items-start items-center font-poppins text-black text-opacity-50'>Change Password</span>
             <input type="password" className='font-poppins bg-myCustomColor-400  text-black opacity-50' placeholder="**************"/>
