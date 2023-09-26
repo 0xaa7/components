@@ -4,6 +4,7 @@ import Login from "./components/Login/Login"
 import Logout from "./components/Logout/Logout"
 import Polls from "./components/Polls/Polls"
 import Profile from "./components/Profile/Profile"
+import Question from "./components/Question/Question"
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
        <Account />
        <Follow />
       <Profile />
+      <Question />
     </div>
   )
 }
