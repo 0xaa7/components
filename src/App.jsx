@@ -5,6 +5,7 @@ import Logout from "./components/Logout/Logout"
 import Polls from "./components/Polls/Polls"
 import Profile from "./components/Profile/Profile"
 import Question from "./components/Question/Question"
+import Follow1 from "./components/follow1/follow1"
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
        <Follow />
       <Profile />
       <Question />
+      <Follow1 />
     </div>
   )
 }
