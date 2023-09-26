@@ -2,7 +2,7 @@ import React from 'react'
 
 const Question = () => {
   return (
-    
+      <div className='flex items-center justify-center'>
       <div className="w-full max-w-[500px] h-[511px] p-2.5 bg-white rounded-[20px] flex-col justify-start items-center gap-2.5 inline-flex">
   <div className="self-stretch h-20 px-2.5 bg-white rounded-xl justify-start items-center gap-2.5 inline-flex">
     <div className="w-[50px] h-[50px] bg-zinc-300 rounded-[50px]" />
@@ -30,6 +30,7 @@ const Question = () => {
     <div className="text-black text-sm font-semibold font-['Poppins']">comments</div>
     <div className="text-black text-sm font-semibold font-['Poppins']">share</div>
   </div>
+</div>
 </div>
     
   )
